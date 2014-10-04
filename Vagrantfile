@@ -175,6 +175,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     mastercore.vm.provision "shell" do |s|
         s.privileged = false
         s.path = "clone-build-install-bitcoind.sh"
+        # The 'msgilligan-msc-upstart' branch should be up-to-date with the mscore-0.0.8 branch
+        # but with the addition of Upstart init scripts
         s.args = ["https://github.com/msgilligan/mastercore.git", "msgilligan-msc-upstart", "mastercore"]
     end
 
