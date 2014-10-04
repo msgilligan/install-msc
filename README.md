@@ -17,7 +17,7 @@ The initial Vagrant file contains multiple VMs
 * empty - empty VM for quick tests of install from 'base'
 * tools - Mastercoin Tools
 * omni - Omniwallet (still under development)
-* mastercore-dev - A mastercore VM (built from latest dev version)
+* mastercore - A mastercore VM (built from 0.0.8 branch + Upstart init script support)
 
 uses the ```install-msc.sh``` script to install Mastercoin Tools.
 
@@ -66,7 +66,7 @@ The ```tools``` VM is configured to install Mastercoin Tools.
 Installing Mastercore
 ---------------------
 
-The ```mastercore-dev``` VM is configured to install Mastercore.
+The ```mastercore``` VM is configured to install Mastercore.
 
 1. [Install VirtualBox](https://www.virtualbox.org/manual/ch02.html)
 1. [Install Vagrant](http://docs.vagrantup.com/v2/installation/)
@@ -78,11 +78,11 @@ The ```mastercore-dev``` VM is configured to install Mastercore.
 
 1. Run Vagrant
 
-        vagrant up  mastercore-dev
+        vagrant up  mastercore
 
 1. Connect to VirtualBox VM
 
-        vagrant ssh  mastercore-dev
+        vagrant ssh  mastercore
 
 1. Go to the mastercore build directory
 
