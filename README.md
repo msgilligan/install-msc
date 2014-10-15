@@ -1,10 +1,10 @@
 Mastercoin Tools Installation Package
 =====================================
 
-Detailed documentation and instructions are available at:
+*DEPRECATED*
 
+For up-to-date Vagrant install scripts for Master Core, Omniwallet, and OmniEngine, see the new [omni-devops](https://github.com/mastercoin-MSC/omni-devops) repository.
 
-[Mastercoin-tools-installer.readthedocs.org](http://mastercoin-tools-installer.readthedocs.org/en/latest/pages/intro.html)
 
 Vagrant support for Mastercoin Development Environments
 -------------------------------------------------------
